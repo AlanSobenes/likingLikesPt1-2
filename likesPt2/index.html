@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page">
+    <div id="header">
+        <h1>Network</h1>
+    </div>
+    <div id="maincontent">
+        <div id="pbox">
+            <img src="assests\Fawn-Pit-Bull-Dog-Face.jpg" alt="dog profile pic" width="100px" class="img">
+            <h3><a href="">Add an avatar</a></h3>
+            <h2>Woofy Doe</h2>
+        </div>
+        <div id="feed">
+            <h1 id="urfeed">Your Feed</h1>
+            <div>
+                <div class="mainbox">
+                    <div class="flexbox">
+                        <h2>Neil M</h2>
+                        <div class="count">
+                            <p class="numlikes"><span id="likebox1">9</span> likes(s)</p>
+                            <button class="likebtn" onclick="increaseLikes('#likebox1')">Like</button>
+                        </div>
+                    </div>
+                    <P class="filler">I just set up this Nnew discord bot, let me know what you all think. <span><a href="">link</a></span></P>
+                </div>
+                <div class="mainbox">
+                    <div class="flexbox">
+                        <h2>Nichole K</h2>
+                        <div class="count">
+                            <p class="numlikes"><span id="likebox2">12</span> likes(s)</p>
+                            <button class="likebtn" onclick="increaseLikes('#likebox2')">Like</button>
+                        </div>
+                    </div>
+                    <P class="filler">Just finished my <span><a href="">next comic</a></span>, check it out.</P>
+                </div>
+                <div class="mainbox">
+                    <div class="flexbox">
+                        <h2>Jim R</h2>
+                        <div class="count">
+                            <p class="numlikes"><span id="likebox3">9</span> likes(s)</p>
+                            <button class="likebtn" onclick="increaseLikes('#likebox3')">Like</button>
+                        </div>
+                    </div>
+                    <P class="filler">I can't stop listening to the <span><a href="">new album</a></span>. Who else is liking it?</P>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

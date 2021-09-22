@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+#mainbox{
+    border: 3px black solid;
+    width: 575px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 75px;
+    
+    
+}
+#flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between    ;
+}
+#flexbox h2{
+   margin-left: 25px; 
+}
+#count{
+    display: flex;
+    align-items: center;
+}
+#numlikes{
+    margin-right: 25px;
+    font-weight: 800;
+}
+#likebtn{
+    margin-right: 25px;
+    width: 75px;
+    height: 25px;
+    background-color: yellow;
+    border: 3px black solid;
+    box-shadow: .2em .2em black;
+}
+#filler{
+    text-align: center;
+}
